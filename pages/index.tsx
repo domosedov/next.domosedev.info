@@ -10,7 +10,7 @@ export default function Home() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ message: "Hello World" }),
-      credentials: "include",
+      // credentials: "include",
       mode: "cors",
     });
 
